@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SCB_Bootloader">
+<ExpandedNodeIds>
+<v>SCB_Bootloader</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files\comms.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files\device.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files\effects.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\Boot_P0_7</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\Boot_P0_7\Boot_P0_7.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\Boot_P0_7\Boot_P0_7.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\Boot_P0_7\Boot_P0_7_aliases.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\P1_5</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\P1_5\P1_5.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\P1_5\P1_5.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\P1_5\P1_5_aliases.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\StripLights</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\StripLights_isr</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\StripLights_StringSel</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_BOOT.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_PINS.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_PM.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_PVT.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_SPI_UART.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_SPI_UART.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_SPI_UART_INT.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_SPI_UART_PVT.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_UART.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART\UART_UART_BOOT.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART_rx</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART_rx\UART_rx.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART_rx\UART_rx.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART_rx\UART_rx_aliases.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART_tx</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART_tx\UART_tx.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART_tx\UART_tx.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source\PSoC4\UART_tx\UART_tx_aliases.h</v>
+<v>SCB_Bootloader\StripLightLib</v>
+<v>SCB_Bootloader\StripLightLib\Header Files</v>
+<v>SCB_Bootloader\StripLightLib\Source Files</v>
+<v>SCB_Bootloader\UART_Bootloader\Source Files</v>
+<v>SCB_Bootloader\UART_Bootloader\Generated_Source</v>
+<v>SCB_Bootloader\UART_Bootloader\Generated_Source\PSoC4</v>
+<v>SCB_Bootloader\UART_Bootloader\Generated_Source\PSoC4\Boot_P0_7</v>
+<v>SCB_Bootloader\UART_Bootloader\Generated_Source\PSoC4\Bootloader</v>
+<v>SCB_Bootloader\UART_Bootloader\Generated_Source\PSoC4\UART</v>
+<v>SCB_Bootloader\UART_Bootloader\Generated_Source\PSoC4\UART_rx</v>
+<v>SCB_Bootloader\UART_Bootloader\Generated_Source\PSoC4\UART_tx</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>SCB_Bootloader</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\TopDesign.cysch</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Bootloadable Blinking LED.cydwr</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files\comms.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files\device.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files\effects.h</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Source Files\main.c</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Generated_Source</v>
+<v>SCB_Bootloader\StripLightLib</v>
+<v>SCB_Bootloader\StripLightLib\Header Files</v>
+<v>SCB_Bootloader\StripLightLib\Source Files</v>
+<v>SCB_Bootloader\UART_Bootloader</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SCB_Bootloader\StripLightLib">
+<ExpandedNodeIds>
+<v>SCB_Bootloader</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED</v>
+<v>SCB_Bootloader\StripLightLib</v>
+<v>SCB_Bootloader\StripLightLib\B_WS2811_v1_2</v>
+<v>SCB_Bootloader\StripLightLib\B_WS2811_v1_2\API</v>
+<v>SCB_Bootloader\StripLightLib\B_WS2811_v1_2\B_WS2811_v1_2.cysym</v>
+<v>SCB_Bootloader\StripLightLib\B_WS2811_v1_2\B_WS2811_v1_2.v</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API\fonts.c</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API\fonts.h</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API\SLights.c</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API\SLights.h</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC3</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC3\StripLights_v1_3.cysch</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC4</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC4\StripLights_v1_3.cysch</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC5</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC5\StripLights_v1_3.cysch</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\StripLights.pdf</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\StripLights_v1_3.cysym</v>
+<v>SCB_Bootloader\UART_Bootloader</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>SCB_Bootloader</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\TopDesign</v>
+<v>SCB_Bootloader\StripLightLib</v>
+<v>SCB_Bootloader\StripLightLib\B_WS2811_v1_2</v>
+<v>SCB_Bootloader\StripLightLib\B_WS2811_v1_2\API</v>
+<v>SCB_Bootloader\StripLightLib\B_WS2811_v1_2\B_WS2811_v1_2.cysym</v>
+<v>SCB_Bootloader\StripLightLib\B_WS2811_v1_2\B_WS2811_v1_2.v</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API\fonts.c</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API\fonts.h</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API\SLights.c</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\API\SLights.h</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC3</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC3\StripLights_v1_3.cysch</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC4</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC4\StripLights_v1_3.cysch</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC5</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\PSoC5\StripLights_v1_3.cysch</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\StripLights.pdf</v>
+<v>SCB_Bootloader\StripLightLib\StripLights_v1_3\StripLights_v1_3.cysym</v>
+<v>SCB_Bootloader\UART_Bootloader</v>
+<v>SCB_Bootloader\UART_Bootloader\TopDesign</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SCB_Bootloader\Bootloadable Blinking LED\Bootloadable Blinking LED.rpt">
+<ExpandedNodeIds>
+<v>SCB_Bootloader</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\Bootloadable.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\Cm0Start.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cybootloader.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\CyFlash.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\CyLib.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cymetadata.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cyPm.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cyutils.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\main.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\P1_5.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\StripLights.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\StripLights_fonts.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\StripLights_isr.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\StripLights_StringSel.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Bootloadable Blinking LED.cyacd</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Bootloadable Blinking LED.elf</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Bootloadable Blinking LED.hex</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Bootloadable Blinking LED.map</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\Boot_P0_7.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\Bootloadable.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\Cm0Start.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\comms.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\CyBootAsmGnu.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cybootloader.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cyfitter_cfg.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\CyFlash.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\CyLib.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cymetadata.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cyPm.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cyutils.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\main.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\P1_5.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\StripLights.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\StripLights_fonts.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\StripLights_isr.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\StripLights_StringSel.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_BOOT.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_PM.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_rx.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_SPI_UART.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_tx.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_UART.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_UART_BOOT.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Bootloadable Blinking LED.cyacd</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Bootloadable Blinking LED.elf</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Bootloadable Blinking LED.hex</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Bootloadable Blinking LED.map</v>
+<v>SCB_Bootloader\StripLightLib</v>
+<v>SCB_Bootloader\StripLightLib\DP8051</v>
+<v>SCB_Bootloader\StripLightLib\DP8051\DP8051_Keil_951</v>
+<v>SCB_Bootloader\StripLightLib\DP8051\DP8051_Keil_951\Release</v>
+<v>SCB_Bootloader\StripLightLib\DP8051\DP8051_Keil_951\Release\StripLightLib.lib</v>
+<v>SCB_Bootloader\UART_Bootloader</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\Boot_P0_7.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\Bootloader.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\Clock.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\Cm0Start.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\CyFlash.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\CyLib.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\cymetadata.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\cyPm.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\cyutils.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\main.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\P1_6.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\PWM.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\PWM_PM.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_BOOT.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_Btldr.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_PM.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_rx.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_tx.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_UART.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\UART_Bootloader.elf</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\UART_Bootloader.hex</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Debug\UART_Bootloader.map</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\Boot_P0_7.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\Bootloader.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\Clock.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\Cm0Start.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\CyBootAsmGnu.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\cyfitter_cfg.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\CyFlash.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\CyLib.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\cymetadata.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\cyPm.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\cyutils.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\main.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\P1_6.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\PWM.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\PWM_PM.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_BOOT.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_Btldr.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_PM.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_rx.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_SPI_UART.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_tx.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_UART.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\Listing Files\UART_UART_BOOT.lst</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\UART_Bootloader.elf</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\UART_Bootloader.hex</v>
+<v>SCB_Bootloader\UART_Bootloader\CortexM0\ARM_GCC_473\Release\UART_Bootloader.map</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>SCB_Bootloader</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\Bootloadable.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\Cm0Start.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cybootloader.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\CyFlash.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\CyLib.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cymetadata.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cyPm.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\cyutils.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\main.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\P1_5.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\StripLights.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\StripLights_fonts.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\StripLights_isr.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Listing Files\StripLights_StringSel.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Bootloadable Blinking LED.cyacd</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Bootloadable Blinking LED.elf</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Bootloadable Blinking LED.hex</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Debug\Bootloadable Blinking LED.map</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\Boot_P0_7.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\Bootloadable.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\Cm0Start.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\comms.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\CyBootAsmGnu.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cybootloader.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cyfitter_cfg.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\CyFlash.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\CyLib.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cymetadata.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cyPm.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\cyutils.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\main.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\P1_5.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\StripLights.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\StripLights_fonts.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\StripLights_isr.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\StripLights_StringSel.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_BOOT.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_PM.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_rx.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_SPI_UART.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_tx.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_UART.lst</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\CortexM0\ARM_GCC_473\Release\Listing Files\UART_UART_BOOT.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SCB_Bootloader\UART_Bootloader">
+<ExpandedNodeIds>
+<v>SCB_Bootloader</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\PSoC 4 Architecture TRM</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\PSoC 4200 Family Datasheet</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\System Reference Guide v4_10</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Bootloadable_v1_20</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\cy_pins_v2_0</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\Gnd_v1_0</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\SCB_P4_v1_20</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\StripLights_v1_3</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED\SwitchSPST_v1_0</v>
+<v>SCB_Bootloader\UART_Bootloader\PSoC 4 Architecture TRM</v>
+<v>SCB_Bootloader\UART_Bootloader\PSoC 4200 Family Datasheet</v>
+<v>SCB_Bootloader\UART_Bootloader\System Reference Guide v4_10</v>
+<v>SCB_Bootloader\UART_Bootloader\Bootloader_v1_20</v>
+<v>SCB_Bootloader\UART_Bootloader\cy_clock_v2_20</v>
+<v>SCB_Bootloader\UART_Bootloader\cy_pins_v2_0</v>
+<v>SCB_Bootloader\UART_Bootloader\Gnd_v1_0</v>
+<v>SCB_Bootloader\UART_Bootloader\LED_v1_0</v>
+<v>SCB_Bootloader\UART_Bootloader\OneTerminal</v>
+<v>SCB_Bootloader\UART_Bootloader\Resistor_v1_0</v>
+<v>SCB_Bootloader\UART_Bootloader\SCB_P4_v1_20</v>
+<v>SCB_Bootloader\UART_Bootloader\SwitchSPST_v1_0</v>
+<v>SCB_Bootloader\UART_Bootloader\TCPWM_P4_v1_10</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>SCB_Bootloader</v>
+<v>SCB_Bootloader\Bootloadable Blinking LED</v>
+<v>SCB_Bootloader\UART_Bootloader</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="6c335137-fa19-46ce-bc2d-2fbeb6d5f2a2">
+<CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2 type_name="CyDesigner.Common.ProjMgmt.GUI.CyDependenciesCustomData" version="1">
+<dictName v=".\Bootloadable Blinking LED.cydsn\Bootloadable Blinking LED.cyprj">
+<listName>
+<v>.\UART_Bootloader.cydsn\UART_Bootloader.cyprj</v>
+</listName>
+</dictName>
+<dictName v="..\StripLightsDemos\StripLightsDemos\E14Demo\StripLightLib.cylib\StripLightLib.cyprj">
+<listName>
+<v>.\UART_Bootloader.cydsn\UART_Bootloader.cyprj</v>
+<v>.\Bootloadable Blinking LED.cydsn\Bootloadable Blinking LED.cyprj</v>
+</listName>
+</dictName>
+<dictName v=".\UART_Bootloader.cydsn\UART_Bootloader.cyprj">
+<listName>
+<v>.\Bootloadable Blinking LED.cydsn\Bootloadable Blinking LED.cyprj</v>
+</listName>
+</dictName>
+</CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Bootloadable Blinking LED.cydsn\main.c" />
+<name v=".\Bootloadable Blinking LED.cydsn\Generated_Source\PSoC4\UART_rx.c" />
+<name v=".\Bootloadable Blinking LED.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Bootloadable Blinking LED.cydsn\Generated_Source\PSoC4\StripLights.h" />
+<name v=".\Bootloadable Blinking LED.cydsn\Generated_Source\PSoC4\StripLights.c" />
+<name v=".\Bootloadable Blinking LED.cydsn\Bootloadable Blinking LED.cydwr" />
+<name v=".\Bootloadable Blinking LED.cydsn\comms.c" />
+</OpenDocs>
+<config v="Release" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
