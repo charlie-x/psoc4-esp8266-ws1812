@@ -62,6 +62,7 @@
 #include <effects.h>
 
 #define	DEFAULT_TIMEOUT	( 50 )
+
 // switch direction of leds
 //#define REVERSE_DIRECTION ( 1 )
 
@@ -358,7 +359,7 @@ void run_server(void)
 		CyDelay(400);
 		
 		// wireless AP settings, first param is ap name, second password
-		ret =send_command("connecting\r\n","AT+CWJAP=\"monkeydo\",\"monkeysee\"\r\n","OK",1000);
+		ret =send_command("connecting\r\n","AT+CWJAP=\"monkeysee\",\"monkeydo\"\r\n","OK",1000);
 
 		// LED Off		
 		P1_6_Write(0);
@@ -517,9 +518,13 @@ void run_server(void)
 	
 							while ( uWIFI_SpiUartGetRxBufferSize() < 3 );
 	
+							// 0 = green
+							// 1 = red
+							// 2 = blue
+							
 							buf_ptr[1] = uWIFI_UartGetChar();
-							buf_ptr[2] = uWIFI_UartGetChar();	
-							buf_ptr[0] = uWIFI_UartGetChar();
+							buf_ptr[0] = uWIFI_UartGetChar();	
+							buf_ptr[2] = uWIFI_UartGetChar();
 							
 #if defined(REVERSE_DIRECTION)
 							buf_ptr -= sizeof(uint32_t);
