@@ -78,8 +78,8 @@ BOOL Cled_monitorDlg::OnInitDialog()
 	// TODO: Add extra initialization here
 	for (int i = 0; i < 150; i++) {
 
-		m_List[i]->Create(_T("1"), WS_VISIBLE | WS_CHILD | BS_PUSHBUTTON,
-		                  CRect(10 + ((i - 1) * 10), 10, 10 + ((i - 1) * 10)+10, 40), this, IDC_BUTTON1 + i);
+		m_List[i]->Create(_T(""), WS_VISIBLE | WS_CHILD | BS_PUSHBUTTON,
+		                  CRect(20 + ((i - 1) * 10), 10, 20 + ((i - 1) * 10)+10, 40), this, IDC_BUTTON1 + i);
 	}
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
