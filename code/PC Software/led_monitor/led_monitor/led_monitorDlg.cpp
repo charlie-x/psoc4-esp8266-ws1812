@@ -96,7 +96,7 @@ void Cled_monitorDlg::OnPaint()
 
 	if ( n!= -1 )
 		for (int i = 0; i < 150; i++) {
-			m_List[i]->SetFaceColor(RGB(led_array[i * 3], led_array[2 + (i * 3)], led_array[1 + (i * 3)]));
+			m_List[i]->SetFaceColor(RGB(led_array[i * 3], led_array[1 + (i * 3)], led_array[2 + (i * 3)]));
 		}
 
 	if (IsIconic()) {
