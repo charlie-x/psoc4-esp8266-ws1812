@@ -118,7 +118,7 @@ void Cled_monitorDlg::OnPaint()
 		CDialogEx::OnPaint();
 	}
 	// tsk!
-	InvalidateRect(NULL, 1);
+	AfxGetMainWnd()->Invalidate();
 }
 
 // The system calls this function to obtain the cursor to display while the user drags
