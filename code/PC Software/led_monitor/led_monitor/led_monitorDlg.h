@@ -18,7 +18,7 @@ public:
 
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV support
-
+	afx_msg void OnTimer( UINT_PTR nIDEvent );
 
 // Implementation
 protected:

@@ -35,6 +35,7 @@ void Cled_monitorDlg::DoDataExchange(CDataExchange* pDX)
 
 BEGIN_MESSAGE_MAP(Cled_monitorDlg, CDialogEx)
 	ON_WM_PAINT()
+	ON_WM_TIMER()
 	ON_WM_QUERYDRAGICON()
 END_MESSAGE_MAP()
 
@@ -73,16 +74,31 @@ BOOL Cled_monitorDlg::OnInitDialog()
 	recvaddr.sin_addr.s_addr = INADDR_ANY;
 	if (bind(sock, (struct sockaddr*)&recvaddr, sizeof recvaddr) == -1) {
 		perror("bind");
-		exit(1);
+
 	}
-	// TODO: Add extra initialization here
+
+
 	for (int i = 0; i < 150; i++) {
 
 		m_List[i]->Create(_T(""), WS_VISIBLE | WS_CHILD | BS_PUSHBUTTON,
 		                  CRect(20 + ((i - 1) * 10), 10, 20 + ((i - 1) * 10)+10, 40), this, IDC_BUTTON1 + i);
 	}
 
+	SetTimer(1,20,NULL);
+
 	return TRUE;  // return TRUE  unless you set the focus to a control
+}
+
+void Cled_monitorDlg::OnTimer(UINT_PTR nIDEvent)
+{
+	length = sizeof sendaddr;;
+	n = recvfrom(sock, (char*)&led_array[0], sizeof(led_array), 0, (struct sockaddr *)&sendaddr, &length);
+	if (n != -1) {
+		for (int i = 0; i < 150; i++) {
+			m_List[i]->SetFaceColor(RGB(led_array[i * 3], led_array[1 + (i * 3)], led_array[2 + (i * 3)]));
+		}
+		Invalidate(FALSE);
+	}
 }
 
 // If you add a minimize button to your dialog, you will need the code below
@@ -91,14 +107,6 @@ BOOL Cled_monitorDlg::OnInitDialog()
 
 void Cled_monitorDlg::OnPaint()
 {
-	length = sizeof sendaddr;;
-	n = recvfrom(sock, (char*)&led_array[0], sizeof(led_array), 0, (struct sockaddr *)&sendaddr, &length);
-
-	if ( n!= -1 )
-		for (int i = 0; i < 150; i++) {
-			m_List[i]->SetFaceColor(RGB(led_array[i * 3], led_array[1 + (i * 3)], led_array[2 + (i * 3)]));
-		}
-
 	if (IsIconic()) {
 		CPaintDC dc(this); // device context for painting
 
@@ -117,8 +125,7 @@ void Cled_monitorDlg::OnPaint()
 	} else {
 		CDialogEx::OnPaint();
 	}
-	// tsk!
-	AfxGetMainWnd()->Invalidate();
+
 }
 
 // The system calls this function to obtain the cursor to display while the user drags
